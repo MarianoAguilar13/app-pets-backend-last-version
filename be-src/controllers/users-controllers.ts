@@ -1,7 +1,6 @@
 import { sequelize } from "../db/conection";
 import { User, Pet } from "../db/index";
 import { cloudinary } from "../lib/cloudinary";
-import { index } from "../lib/algolia";
 
 export async function dataMe(id: number) {
   const user = await User.findByPk(id);
