@@ -1,0 +1,8 @@
+node_modules
+be-dist
+fe-dist
+.env
+dist
+db.js
+yarn.lock
+.parcel-cache

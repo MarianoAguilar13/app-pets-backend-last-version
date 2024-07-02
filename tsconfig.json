@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "outDir": "be-dist"
+  },
+  "exclude": ["./fe-src"],
+  "includes": ["./be-src/**/*.ts"]
+}
